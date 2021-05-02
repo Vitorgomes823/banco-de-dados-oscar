@@ -95,3 +95,8 @@ SELECT AVG(peso) FROM `pokedex` WHERE generation = 4
 SELECT AVG(peso) FROM `pokedex` WHERE generation = 5
 SELECT AVG(peso) FROM `pokedex` WHERE generation = 6 
 SELECT AVG(peso) FROM `pokedex` WHERE generation = 7
+
+8) A geração três possui quantos pokemons?
+R: 135
+
+select count(*) from pokedex where generation = "3";
